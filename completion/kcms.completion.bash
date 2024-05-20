@@ -15,4 +15,4 @@ _kube_secrets() {
   esac
 }
 
-complete -F _kube_secrets kcvs
+complete -F _kube_secrets kcms
