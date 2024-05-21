@@ -16,4 +16,6 @@ _complete_kcdd () {
   esac
 }
 
+export -f _complete_kcdd
+
 complete -F _complete_kcdd kcdd

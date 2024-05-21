@@ -16,4 +16,7 @@ _complete_kcdp () {
   esac
 }
 
+export -f _complete_kcdp
+
 complete -F _complete_kcdp kcdp
+
